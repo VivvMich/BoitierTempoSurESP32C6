@@ -1,0 +1,8 @@
+﻿
+
+$env:WIFI_SSID = "NomDeTaBox"
+$env:WIFI_PASS = "TonMotDePasse"
+$env:CARGO_TARGET_DIR = "C:\b"
+$env:ESP_IDF_SDKCONFIG_DEFAULTS = "C:\tempo\sdkconfig.defaults"
+cd C:\tempo
+cargo run
